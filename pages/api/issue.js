@@ -215,7 +215,7 @@ function drawDataPage(page, payload, photoImg, qrImg, font, bold) {
   page.drawRectangle({ x: width - 170, y: 30, width: 120, height: 120, color: rgb(1,1,1), borderColor: rgb(0.15,0.18,0.20), borderWidth: 1 });
   page.drawImage(qrImg, { x: width - 165, y: 35, width: 110, height: 110 });
 
-  page.drawText("Scan/Copy bundleBase64 → /verify", { x: 60, y: 54, size: 8.5, font, color: rgb(0.18,0.22,0.24) });
+  page.drawText("Scan or copy bundleBase64 to /verify", { x: 60, y: 54, size: 8.5, font, color: rgb(0.18,0.22,0.24) });
 
   // strong watermarks
   drawTiledWatermark(page, "SAMPLE • FICTIONAL • NO LEGAL VALUE", bold);
